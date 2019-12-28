@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689a5948-0885-461f-81d0-dd35a6a13d2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/UserResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/UserResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,7 +39,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -112,10 +112,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1577533440730" />
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1577469933908">
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1577536414960">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577469933908" />
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1577536414960" />
     <state x="566" y="273" width="418" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1577390408870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -144,10 +144,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="375" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577535187314" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1577534889642">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1577536816272">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577534889642" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577536816272" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1577459792645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
