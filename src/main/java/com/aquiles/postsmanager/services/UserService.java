@@ -1,6 +1,7 @@
 package com.aquiles.postsmanager.services;
 
 import com.aquiles.postsmanager.domain.User;
+import com.aquiles.postsmanager.dto.UserDTO;
 import com.aquiles.postsmanager.repository.UserRepository;
 import com.aquiles.postsmanager.services.exception.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,15 @@ public class UserService {
 
     public User findById(String id) {
         User user = userRepository.findById(id).orElseThrow(() -> new ObjectNotFoundException("ID not found."));
+        return user;
+    }
+
+    public User insert(User user){
+        return userRepository.insert(user);
+    }
+
+    public User fromDTO(UserDTO userDTO){
+        User user = new User(userDTO.getId(), userDTO.getName(), userDTO.getEmail());
         return user;
     }
 }
