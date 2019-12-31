@@ -2,6 +2,7 @@ package com.aquiles.postsmanager.configuration;
 
 import com.aquiles.postsmanager.domain.Post;
 import com.aquiles.postsmanager.domain.User;
+import com.aquiles.postsmanager.dto.AuthorDTO;
 import com.aquiles.postsmanager.repository.PostRepository;
 import com.aquiles.postsmanager.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,8 +36,8 @@ public class Instantiation implements CommandLineRunner {
         SimpleDateFormat date = new SimpleDateFormat("dd/MM/yyyy");
         date.setTimeZone(TimeZone.getTimeZone("GMT"));
 
-        Post postAquiles = new Post(null, date.parse("15/10/2019"), "Férias!", "Finalmente! #Partiu viagem!!!", aquiles);
-        Post postJoao = new Post(null, date.parse("19/11/2019"), "Aprovado!", "Passei no vestibular!!", joao);
+        Post postAquiles = new Post(null, date.parse("15/10/2019"), "Férias!", "Finalmente! #Partiu viagem!!!", new AuthorDTO(aquiles));
+        Post postJoao = new Post(null, date.parse("19/11/2019"), "Aprovado!", "Passei no vestibular!!", new AuthorDTO(joao));
 
         postRepository.saveAll(Arrays.asList(postAquiles, postJoao));
     }

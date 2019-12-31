@@ -4,21 +4,18 @@ import com.aquiles.postsmanager.domain.User;
 
 import java.io.Serializable;
 
-public class UserDTO implements Serializable {
+public class AuthorDTO implements Serializable {
     private static final Long serialVersionUID = 1L;
 
     private String id;
     private String name;
-    private String email;
 
-    public UserDTO(){
-
+    public AuthorDTO() {
     }
 
-    public UserDTO(User user) {
+    public AuthorDTO(User user) {
         this.id = user.getId();
         this.name = user.getName();
-        this.email = user.getEmail();
     }
 
     public String getId() {
@@ -35,13 +32,5 @@ public class UserDTO implements Serializable {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 }
