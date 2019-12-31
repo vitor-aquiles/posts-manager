@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="689a5948-0885-461f-81d0-dd35a6a13d2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/configuration/Instantiation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/configuration/Instantiation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/domain/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/domain/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/repository/PostRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/PostResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/PostResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/util/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/resources/util/URL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/services/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aquiles/postsmanager/services/PostService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aquiles/postsmanager/configuration/Instantiation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aquiles/postsmanager/configuration/Instantiation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aquiles/postsmanager/domain/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aquiles/postsmanager/domain/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/aquiles/postsmanager/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/aquiles/postsmanager/repository/PostRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

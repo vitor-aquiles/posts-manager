@@ -30,6 +30,14 @@ public class PostResource {
         return ResponseEntity.ok().body(posts);
     }
 
+    /* Realiza a busca de dados referentes a Posts(dentro de títulos, conteúdos e comentários)
+       a partir de qualquer String, junto de um intervalo de datas.
+
+        @param text
+        @param minDate
+        @param maxDate
+        @return List<Post>
+     */
     @GetMapping(value = "/fullSearch")
     public ResponseEntity<List<Post>> fullSearch(
             @RequestParam(value = "text", defaultValue = "") String text,
