@@ -1,5 +1,6 @@
 package com.aquiles.postsmanager.services;
 
+import com.aquiles.postsmanager.domain.Post;
 import com.aquiles.postsmanager.domain.User;
 import com.aquiles.postsmanager.dto.UserDTO;
 import com.aquiles.postsmanager.repository.UserRepository;
@@ -47,5 +48,10 @@ public class UserService {
     public void updateData(User userRequest, User user){
         user.setName(userRequest.getName());
         user.setEmail(userRequest.getEmail());
+    }
+
+    public List<Post> getPostsByUserId(String id) {
+        User user = findById(id);
+        return user.getPosts();
     }
 }

@@ -1,5 +1,6 @@
 package com.aquiles.postsmanager.resources;
 
+import com.aquiles.postsmanager.domain.Post;
 import com.aquiles.postsmanager.domain.User;
 import com.aquiles.postsmanager.dto.UserDTO;
 import com.aquiles.postsmanager.services.UserService;
@@ -52,5 +53,10 @@ public class UserResource {
     public ResponseEntity<Void> delete(@PathVariable String id){
         userService.delete(id);
         return ResponseEntity.noContent().build();
+    }
+
+    @GetMapping(value = "/{id}/posts")
+    public ResponseEntity<List<Post>> getPostsByUserId(@PathVariable String id){
+        return ResponseEntity.ok().body(userService.getPostsByUserId(id));
     }
 }
