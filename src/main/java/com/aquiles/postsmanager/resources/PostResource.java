@@ -17,13 +17,13 @@ public class PostResource {
     private PostService postService;
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<Post> getById(@PathVariable String id) {
+    public ResponseEntity<Post> findById(@PathVariable String id) {
         Post post = postService.findById(id);
         return ResponseEntity.ok().body(post);
     }
 
     @GetMapping(value = "/titleSearch")
-    public ResponseEntity<List<Post>> getByTitle(@RequestParam(value = "text", defaultValue = "") String text) {
+    public ResponseEntity<List<Post>> findByTitle(@RequestParam(value = "text", defaultValue = "") String text) {
         String urlParam = URL.decodeParam(text);
         List<Post> post = postService.findByTitle(urlParam);
         return ResponseEntity.ok().body(post);
